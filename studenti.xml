@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Entitati>
+    <student ID="dd">
+        <Nume>dd</Nume>
+        <Grupa>930</Grupa>
+    </student>
     <student ID="1">
         <Nume>Ana</Nume>
         <Grupa>221</Grupa>
+    </student>
+    <student ID="&quot;tt&quot;">
+        <Nume>"aza"</Nume>
+        <Grupa>933</Grupa>
     </student>
     <student ID="2">
         <Nume>Maria</Nume>
@@ -12,8 +20,32 @@
         <Nume>lucia</Nume>
         <Grupa>933</Grupa>
     </student>
+    <student ID="rfg">
+        <Nume>esrfg</Nume>
+        <Grupa>928</Grupa>
+    </student>
+    <student ID="&quot;1&quot;">
+        <Nume>"Ana"</Nume>
+        <Grupa>221</Grupa>
+    </student>
     <student ID="4">
         <Nume>Ion</Nume>
         <Grupa>227</Grupa>
+    </student>
+    <student ID="256236256256562562569">
+        <Nume>25z</Nume>
+        <Grupa>633</Grupa>
+    </student>
+    <student ID="jhfujfjrnfjnjndjnidjikjifkjfioksjfksnkjdnfrn">
+        <Nume>kfvlkv,njsikevjnikvjniksevjnikvjikseviknvkvnk</Nume>
+        <Grupa>933</Grupa>
+    </student>
+    <student ID="gbg">
+        <Nume>sed</Nume>
+        <Grupa>900</Grupa>
+    </student>
+    <student ID="tgr">
+        <Nume>srtgsg</Nume>
+        <Grupa>929</Grupa>
     </student>
 </Entitati>
