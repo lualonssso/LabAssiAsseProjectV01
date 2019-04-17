@@ -1,4 +1,4 @@
-package lab2;
+package test;
 
 import domain.Nota;
 import domain.Student;
