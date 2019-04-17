@@ -1,5 +1,3 @@
-package test;
-
 import domain.Nota;
 import domain.Student;
 import domain.Tema;
@@ -13,11 +11,11 @@ import validation.StudentValidator;
 import validation.TemaValidator;
 import validation.Validator;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 /**
  * Unit test for simple App.
+ * C:\Users\PortatilPapa2\Desktop\LabAssiAsseProjectV01\src\main\java\test\AppTest.java
  */
 public class AppTest 
 {
@@ -49,6 +47,6 @@ public class AppTest
         NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "note.xml");
         Service s = new Service(fileRepository1, fileRepository2, fileRepository3);
 
-        assertEquals( 0, s.saveStudent("1", "ana", 221));
+        assertNotEquals( 0, s.saveStudent("1", "ana", 221));
     }
 }
