@@ -18,12 +18,20 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
+  <!--surefire-plugin-->
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>3.0.0-M3</version>
+      <type>maven-plugin</type>
     </dependency>
   </dependencies>
 
@@ -79,6 +87,11 @@
           <source>8</source>
           <target>8</target>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M3</version>
       </plugin>
     </plugins>
   </build>

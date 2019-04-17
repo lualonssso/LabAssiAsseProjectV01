@@ -20,7 +20,7 @@ import static org.junit.Assert.*;
 public class AppTest 
 {
     /**
-     * Rigorous Test :-)
+     * LAB 2
      */
     @Test
     public void shouldAnswerWithTrue()
@@ -48,5 +48,15 @@ public class AppTest
         Service s = new Service(fileRepository1, fileRepository2, fileRepository3);
 
         assertNotEquals( 0, s.saveStudent("1", "ana", 221));
+    }
+
+    /**
+     * LAB 4
+     */
+
+    @Test
+    public void addStudentTestCase()
+    {
+
     }
 }
