@@ -45,6 +45,11 @@
         <Deadline>6</Deadline>
         <Startline>4</Startline>
     </tema>
+    <tema ID="assign1">
+        <Descriere>description</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>3</Startline>
+    </tema>
     <tema ID="assign">
         <Descriere>description</Descriere>
         <Deadline>4</Deadline>

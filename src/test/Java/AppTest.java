@@ -128,4 +128,36 @@ public class AppTest
         addAssignmentTestCase();
         addGradetTestCase();
     }
+
+    /**
+     * LAB 4 TAKE HOME
+     */
+
+    @Test
+    public void addStudentTestCase1()
+    {
+
+        assertEquals(0, s.saveStudent("laei", "lucia", 933));
+    }
+
+    @Test
+    public void addAssignmentIntegrationTestCase()
+    {
+        addStudentTestCase1();
+
+        assertEquals(0, s.saveTema("assign1", "description", 4, 3));
+    }
+
+    @Test
+    public void addGradetIntegrationTestCase()
+    {
+        addStudentTestCase1();
+        addAssignmentIntegrationTestCase();
+
+        assertNotEquals(0, s.saveNota("laei", "description", 9, 3, "good"));
+    }
+
+
 }
+
+
