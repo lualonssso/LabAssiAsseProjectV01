@@ -35,6 +35,11 @@
         <Deadline>5</Deadline>
         <Startline>4</Startline>
     </tema>
+    <tema ID="Assignment1">
+        <Descriere>descrrffgf</Descriere>
+        <Deadline>4</Deadline>
+        <Startline>2</Startline>
+    </tema>
     <tema ID="hu">
         <Descriere>fou</Descriere>
         <Deadline>6</Deadline>

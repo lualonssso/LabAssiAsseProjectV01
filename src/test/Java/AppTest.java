@@ -44,6 +44,62 @@ public class AppTest
     }
 
     /**
+     * LAB 3 IN CLASS
+     */
+
+    @Test //no error
+    public void testCaseAssignmentTrue()
+    {
+        assertEquals( 0, s.saveTema("Assignment1", "descrrffgf", 4, 2));
+    }
+
+    @Test  //error
+    public void testCaseAssignmentFalse()
+    {
+        assertNotEquals( 0, s.saveTema("assign", "description", 2, 3));
+    }
+
+    /**
+     * LAB 3 TAKE HOME
+     */
+
+    @Test
+    public void testCase1()
+    {
+        assertEquals( 1, s.saveTema("", "descrrffgf", 4, 1));
+    }
+
+    @Test
+    public void testCase2()
+    {
+        assertEquals( 1, s.saveTema("assign", "", 4, 1));
+    }
+
+    @Test
+    public void testCase3()
+    {
+        assertEquals( 1, s.saveTema("assign", "descrrffgf", -1, 1));
+    }
+
+    @Test
+    public void testCase4()
+    {
+        assertEquals( 1, s.saveTema("assign", "descrrffgf", 1, 6));
+    }
+
+    @Test
+    public void testCase5()
+    {
+        assertNotEquals( 1, s.saveTema("assign", "descrrffgf", 5, 1));
+    }
+
+    @Test
+    public void testCase6()
+    {
+        assertNotEquals( 1, s.saveTema("assign", "descrrffgf", 5, 1));
+    }
+
+    /**
      * LAB 4
      */
 
