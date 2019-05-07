@@ -100,7 +100,7 @@ public class AppTest
     }
 
     /**
-     * LAB 4
+     * LAB 4 IN CLASS
      */
 
     @Test
